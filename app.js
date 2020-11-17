@@ -20,8 +20,7 @@ var transporter = nodemailer.createTransport({
 const ejs = require('ejs');
 const mongoose = require("mongoose");
 const alert = require('alert');
-mongoose.connect("mongodb+srv://admin-yush:yushajay1@cluster0.x2h7y.mongodb.net/donorsDB?retryWrites=true&w=majority");
-", {
+mongoose.connect("mongodb+srv://admin-yush:yushajay1@cluster0.x2h7y.mongodb.net/donorsDB?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
